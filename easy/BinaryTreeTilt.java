@@ -37,14 +37,16 @@ public class BinaryTreeTilt {
 	}
 	
 	public static int findTilt(TreeNode root) {
-		if(root == null)
+		/*if(root == null)
 			return 0;
 		int l = 0, r = 0;
 		if(root.left!=null)
 			l += root.left.val + findTilt(root.left);
 		if(root.right!=null)
 			r += root.right.val + findTilt(root.right);
-		return l + r + Math.abs(r-l);
+		return l + r + Math.abs(r-l);*/
+		// TO BE COMPLETED
+		return 0;
 	}
 
 }
