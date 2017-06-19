@@ -16,6 +16,7 @@ public class TagValidator {
 	}
 	
 	public static boolean isValid(String code) {
+		// TO BE COMPLETED
 		//String pattern = "(<(\\w*)>[^\\w+][^\\W+]<\\\\(\\w*\\)>\\)";
 		//String pattern = "<([\\w]*)>([\\w+\\W+]+)(<!\\[CDATA\\[)([\\w+\\W+]+)(\\]\\]>)([\\w+\\W+]+)<.([\\w]*)>";
 		String pattern = "<([\\w]*)>([\\w+\\W+]+)<.([\\w]*)>";
