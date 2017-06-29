@@ -9,7 +9,7 @@ public class PowerOfThree {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(isPowerOfThree(27));
+		System.out.println(isPowerOfThree(0));
 		
 	}
 
@@ -20,6 +20,6 @@ public class PowerOfThree {
         return n==1;
         */
         // OR
-        return n == Math.pow(3, Math.round(Math.log(n)/Math.log(3)));
+        return n==0?false:n == Math.pow(3, Math.round(Math.log(n)/Math.log(3)));
     }
 }
