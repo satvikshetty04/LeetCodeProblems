@@ -9,7 +9,7 @@ public class NumberOf1Bits {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(hammingWeight(2147483648));
+		System.out.println(hammingWeight(3));
 	}
 	
 	public static int hammingWeight(int n) {
